@@ -96,6 +96,9 @@
     width: 50px;
     color: white;
 }
+.email {
+    color: white;
+}
 .action {
     font-size: 24px;
     display: flex;
@@ -120,6 +123,12 @@
     flex-direction: column;
     height: 100%;
     width: 70%;
+}
+
+#siderbar {
+    height: 100%;
+    width: 90px;
+    background-color: lime;
 }
 
 body {

@@ -5,5 +5,4 @@ function togglePActions() {
     else {
         document.getElementById("profile-actions").style.visibility = "hidden";
     }
-    
 }
