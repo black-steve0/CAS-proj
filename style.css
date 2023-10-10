@@ -1,17 +1,18 @@
 #header {
-    background-color: lime;
+    background-color: rgb(75, 9, 9);;
     width: 100%;
-    height: 6%;
+    height: 65px;
     position: absolute;
     display: flex;
 }
 
 .left {
-    gap:15px;
+    gap: 15px;
     align-items: center;
     display: flex;
     width: 100%;
     height: 100%;
+
 }
 .middle {
     gap:5px;
@@ -32,14 +33,16 @@
 .sidebar-button {
     width: 50px;
     height: 50px;
+    
 }
 
 .button-action {
-    margin-left:30px;
+    margin-left:13px;
     background-color: lightslategrey;
     border-radius: 20px;
     width: 100%;
     height: 100%;
+
 }
 .button-action:hover {
     cursor: pointer;
@@ -125,12 +128,42 @@
     width: 70%;
 }
 
-#siderbar {
+#sidebar {
     height: 100%;
     width: 90px;
-    background-color: lime;
+    position:absolute;
+    background-color: rgb(75, 9, 9);
+    display: flex;
+    overflow: hidden;
+    transition: width 0.3s;
+    margin-top: 65px;
+    flex-direction: column;
+
 }
 
+#sidebar:hover {
+    width: 350px;
+}
+
+.sidebar-content {
+    gap: 25px;
+    width: 100%;
+    height: 100px;
+    background-color:gray;
+    color:white;
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar-img {
+    margin-left: 5px;
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+
+}
 body {
     font-weight: 500;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
