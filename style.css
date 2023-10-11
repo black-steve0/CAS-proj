@@ -1,5 +1,5 @@
 #header {
-    background-color: rgb(75, 9, 9);;
+    background-color: rgb(75, 9, 9);
     width: 100%;
     height: 65px;
     position: absolute;
@@ -31,45 +31,37 @@
 }
 
 .sidebar-button {
+    cursor: pointer;
     width: 50px;
     height: 50px;
-    
 }
 
 .button-action {
     margin-left:13px;
-    background-color: lightslategrey;
+    background-color: rgba(119, 136, 153, 0);
     border-radius: 20px;
     width: 100%;
     height: 100%;
-
-}
-.button-action:hover {
-    cursor: pointer;
 }
 
 .home-button {
+    cursor: pointer;
     border-radius: 15px;
     margin-left:30px;
     width: 200px;
     height: 80%;
     background-color: black;
 }
-.home-button:hover {
-    cursor: pointer;
-}
 .profile {
+    cursor: pointer;
     border-radius: 25px;
     margin-right:30px;
     background-color: gray;
     width: 50px;
     height: 50px;
 }
-.profile:hover {
-    cursor: pointer;
-}
 #profile-actions {
-    margin-top: 380px;
+    margin-top: 400px;
     margin-right: 20px;
     background-color: gray;
     border-radius: 10px;
@@ -130,7 +122,7 @@
 
 #sidebar {
     height: 100%;
-    width: 90px;
+    width: 80px;
     position:absolute;
     background-color: rgb(75, 9, 9);
     display: flex;
@@ -138,32 +130,39 @@
     transition: width 0.3s;
     margin-top: 65px;
     flex-direction: column;
-
 }
 
 #sidebar:hover {
-    width: 350px;
+    width: 250px;
 }
 
 .sidebar-content {
+    white-space: nowrap;
+    cursor: pointer;
     gap: 25px;
     width: 100%;
-    height: 100px;
-    background-color:gray;
+    height: 70px;
     color:white;
-    font-size: 45px;
+    font-size: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .sidebar-img {
-    margin-left: 5px;
-    width: 75px;
-    height: 75px;
+    margin-left: 8px;
+    width: 60px;
+    height: 60px;
     border-radius: 25px;
-
 }
+.sidebar-button-image {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 5px;
+    gap: 0;
+}
+
 body {
     font-weight: 500;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
