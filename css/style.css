@@ -78,7 +78,7 @@
 #profile-actions {
     margin-top: 400px;
     margin-right: 20px;
-    background-color: gray;
+    background-color: rgb(75, 9, 9);
     border-radius: 10px;
     width: 300px;
     height: 320px;
@@ -118,7 +118,7 @@
     cursor: pointer;
 }
 .action:hover {
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(78, 34, 34);
 }
 .action-image {
     margin: 15px;
